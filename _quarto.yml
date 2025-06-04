@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  title: "Basic Statistics Exercises"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Mean
+        href: mean.qmd
+      - text: Histogram
+        href: histogram.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
