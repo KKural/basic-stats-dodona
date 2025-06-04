@@ -3,15 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Basic Statistics for Students"
+  title: "Statistics for Social Science"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: descriptive.qmd
         text: Descriptive Statistics
+      - href: inferential.qmd
+        text: Inferential Statistics
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     toc: true
