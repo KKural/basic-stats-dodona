@@ -1,1 +1,10 @@
+---
+title: "Welcome"
+---
+
+# Basic Statistics for Undergraduate Students
+
+This is a sample interactive content page for teaching key concepts in basic statistics. Use the menu above to try the exercises.
+
+Created by [Your Name].
 
