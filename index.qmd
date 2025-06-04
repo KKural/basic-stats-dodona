@@ -1,10 +1,41 @@
 ---
-title: "Welcome"
+title: "Statistics Course for Students"
+format: html
 ---
 
-# Basic Statistics for Undergraduate Students
+# 📘 Welcome to the Statistics Course
 
-This is a sample interactive content page for teaching key concepts in basic statistics. Use the menu above to try the exercises.
+This interactive course is designed to help undergraduate students in social science and criminology understand basic statistical concepts using examples, quizzes, and visual explanations.
 
+---
 
+## 📂 Exercise Series
 
+### 🔹 Prologue
+
+- ✅ [Introduction](descriptive.qmd)
+- ✅ [Why statistics matter](descriptive.qmd)
+
+---
+
+### 🔹 Module 1: Descriptive Statistics
+
+Learn about central tendency, dispersion, visual summaries, and more.
+
+- 🔹 [Mean, Median, Mode](descriptive.qmd)
+- 🔹 [Histograms and Frequency](descriptive.qmd)
+
+---
+
+### 🔹 Module 2: Inferential Statistics
+
+Understand sampling, probability, and significance testing.
+
+- 🔹 [Confidence Intervals](inferential.qmd)
+- 🔹 [Hypothesis Testing](inferential.qmd)
+
+---
+
+## 🧭 Navigation
+
+Use the top menu or click any topic above to begin. After each quiz, you'll see feedback and your score.
