@@ -1,0 +1,142 @@
+---
+title: "Descriptive Statistics"
+format: html
+---
+
+# 📘 Descriptive Statistics in Criminology
+
+Descriptive statistics summarize data so it can be easily understood. In criminology, they are used to describe crime trends, offender characteristics, and patterns in victimization. Core concepts include frequency distributions, measures of central tendency (mean, median, mode), dispersion (variance, standard deviation), and visualization techniques like histograms and boxplots.
+
+---
+
+## 🧪 Instructions
+
+- Answer all 10 questions.
+- You'll get instant feedback.
+- At the end, your score will be shown.
+- You need **at least 50%** to proceed to the next topic.
+
+---
+
+<form id="quiz-form">
+
+### 1. What is the purpose of descriptive statistics?
+
+<input type="radio" name="q1" value="a"> A. Predict future outcomes<br>
+<input type="radio" name="q1" value="b"> B. Summarize and describe data<br>
+<input type="radio" name="q1" value="c"> C. Establish causal relationships<br>
+
+<br>
+
+### 2. Which of the following is a measure of central tendency?
+
+<input type="radio" name="q2" value="a"> A. Range<br>
+<input type="radio" name="q2" value="b"> B. Standard deviation<br>
+<input type="radio" name="q2" value="c"> C. Median<br>
+
+<br>
+
+### 3. The standard deviation measures...
+
+<input type="radio" name="q3" value="a"> A. The average value<br>
+<input type="radio" name="q3" value="b"> B. The spread of values<br>
+<input type="radio" name="q3" value="c"> C. The middle value<br>
+
+<br>
+
+### 4. What type of variable is "crime type"?
+
+<input type="radio" name="q4" value="a"> A. Nominal<br>
+<input type="radio" name="q4" value="b"> B. Interval<br>
+<input type="radio" name="q4" value="c"> C. Ratio<br>
+
+<br>
+
+### 5. Which of the following is best visualized with a histogram?
+
+<input type="radio" name="q5" value="a"> A. Gender<br>
+<input type="radio" name="q5" value="b"> B. Age<br>
+<input type="radio" name="q5" value="c"> C. Eye color<br>
+
+<br>
+
+### 6. What shape describes a normal distribution?
+
+<input type="radio" name="q6" value="a"> A. Skewed left<br>
+<input type="radio" name="q6" value="b"> B. Bell curve<br>
+<input type="radio" name="q6" value="c"> C. Flat<br>
+
+<br>
+
+### 7. Which statistic is most affected by outliers?
+
+<input type="radio" name="q7" value="a"> A. Mean<br>
+<input type="radio" name="q7" value="b"> B. Median<br>
+<input type="radio" name="q7" value="c"> C. Mode<br>
+
+<br>
+
+### 8. A scatterplot shows...
+
+<input type="radio" name="q8" value="a"> A. One variable<br>
+<input type="radio" name="q8" value="b"> B. The distribution of frequencies<br>
+<input type="radio" name="q8" value="c"> C. The relationship between two variables<br>
+
+<br>
+
+### 9. Which graphic is best for categorical data?
+
+<input type="radio" name="q9" value="a"> A. Line chart<br>
+<input type="radio" name="q9" value="b"> B. Bar chart<br>
+<input type="radio" name="q9" value="c"> C. Boxplot<br>
+
+<br>
+
+### 10. What is a spurious correlation?
+
+<input type="radio" name="q10" value="a"> A. A causal link<br>
+<input type="radio" name="q10" value="b"> B. A non-existent or misleading correlation<br>
+<input type="radio" name="q10" value="c"> C. A perfect relationship<br>
+
+<br>
+<button type="button" onclick="gradeQuiz()">Submit Answers</button>
+</form>
+
+<div id="score" style="margin-top: 20px; font-weight: bold;"></div>
+<div id="feedback" style="margin-top: 10px;"></div>
+
+<script>
+function gradeQuiz() {
+  const answers = {
+    q1: "b",
+    q2: "c",
+    q3: "b",
+    q4: "a",
+    q5: "b",
+    q6: "b",
+    q7: "a",
+    q8: "c",
+    q9: "b",
+    q10: "b"
+  };
+
+  let score = 0;
+  let total = 10;
+
+  for (let q in answers) {
+    const selected = document.querySelector('input[name="' + q + '"]:checked');
+    if (selected && selected.value === answers[q]) {
+      score += 1;
+    }
+  }
+
+  const percent = Math.round((score / total) * 100);
+  document.getElementById("score").innerHTML = "Your Score: " + score + "/" + total + " (" + percent + "%)";
+
+  if (score >= 5) {
+    document.getElementById("feedback").innerHTML = "✅ Well done! You may continue to the next exercise.";
+  } else {
+    document.getElementById("feedback").innerHTML = "❌ Please review the topic and try again before moving on.";
+  }
+}
+</script>
