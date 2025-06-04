@@ -1,16 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Basic Statistics Exercises"
+  title: "Basic Statistics for Students"
   navbar:
     left:
-      - text: Home
-        href: index.qmd
-      - text: Mean
-        href: mean.qmd
-      - text: Histogram
-        href: histogram.qmd
+      - href: index.qmd
+        text: Home
+      - href: descriptive.qmd
+        text: Descriptive Statistics
 
 format:
   html:
