@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "inferential.html",
+    "href": "inferential.html",
+    "title": "Inferential Statistics",
     "section": "",
-    "text": "Basic Statistics for Undergraduate Students\nThis is a sample interactive content page for teaching key concepts in basic statistics. Use the menu above to try the exercises."
+    "text": "Inferential statistics let us make conclusions about a population based on sample data. This includes concepts like probability, sampling distribution, confidence intervals, and hypothesis testing.\n\n\n\n\nAnswer all 5 quiz questions.\nAt least 3 correct to pass.\n\n\n\n\n\n A. Describe the entire population  B. Predict future crime trends  C. Make generalizations about a population using sample data\n\n\n\n\n A. Probability null is true  B. Probability of observing your result (or more extreme) if null is true  C. Confidence in sample mean\n\n\n\n\n A. 95% of data fall in this range  B. 95% confident the population value lies within  C. The interval includes all variation\n\n\n\n\n A. Sampling distributions approach normality as n increases  B. All sample means are equal  C. Larger samples are skewed\n\n\n\n\n A. Chi-square test  B. t-test  C. ANOVA\n Submit Answers"
+  },
+  {
+    "objectID": "inferential.html#instructions",
+    "href": "inferential.html#instructions",
+    "title": "Inferential Statistics",
+    "section": "",
+    "text": "Answer all 5 quiz questions.\nAt least 3 correct to pass.\n\n\n\n\n\n A. Describe the entire population  B. Predict future crime trends  C. Make generalizations about a population using sample data\n\n\n\n\n A. Probability null is true  B. Probability of observing your result (or more extreme) if null is true  C. Confidence in sample mean\n\n\n\n\n A. 95% of data fall in this range  B. 95% confident the population value lies within  C. The interval includes all variation\n\n\n\n\n A. Sampling distributions approach normality as n increases  B. All sample means are equal  C. Larger samples are skewed\n\n\n\n\n A. Chi-square test  B. t-test  C. ANOVA\n Submit Answers"
   },
   {
     "objectID": "descriptive.html",
@@ -19,5 +26,26 @@
     "title": "Descriptive Statistics",
     "section": "",
     "text": "Answer all 10 questions.\nYou’ll get instant feedback.\nAt the end, your score will be shown.\nYou need at least 50% to proceed to the next topic.\n\n\n\n\n\n A. Predict future outcomes  B. Summarize and describe data  C. Establish causal relationships\n\n\n\n\n A. Range  B. Standard deviation  C. Median\n\n\n\n\n A. The average value  B. The spread of values  C. The middle value\n\n\n\n\n A. Nominal  B. Interval  C. Ratio\n\n\n\n\n A. Gender  B. Age  C. Eye color\n\n\n\n\n A. Skewed left  B. Bell curve  C. Flat\n\n\n\n\n A. Mean  B. Median  C. Mode\n\n\n\n\n A. One variable  B. The distribution of frequencies  C. The relationship between two variables\n\n\n\n\n A. Line chart  B. Bar chart  C. Boxplot\n\n\n\n\n A. A causal link  B. A non-existent or misleading correlation  C. A perfect relationship\n Submit Answers"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics Course for Students",
+    "section": "",
+    "text": "This interactive course is designed to help undergraduate students in social science and criminology understand basic statistical concepts using examples, quizzes, and visual explanations.\n\n\n\n\n\n\n✅ Introduction\n✅ Why statistics matter\n\n\n\n\n\nLearn about central tendency, dispersion, visual summaries, and more.\n\n🔹 Mean, Median, Mode\n🔹 Histograms and Frequency\n\n\n\n\n\nUnderstand sampling, probability, and significance testing.\n\n🔹 Confidence Intervals\n🔹 Hypothesis Testing\n\n\n\n\n\n\nUse the top menu or click any topic above to begin. After each quiz, you’ll see feedback and your score."
+  },
+  {
+    "objectID": "index.html#exercise-series",
+    "href": "index.html#exercise-series",
+    "title": "Statistics Course for Students",
+    "section": "",
+    "text": "✅ Introduction\n✅ Why statistics matter\n\n\n\n\n\nLearn about central tendency, dispersion, visual summaries, and more.\n\n🔹 Mean, Median, Mode\n🔹 Histograms and Frequency\n\n\n\n\n\nUnderstand sampling, probability, and significance testing.\n\n🔹 Confidence Intervals\n🔹 Hypothesis Testing"
+  },
+  {
+    "objectID": "index.html#navigation",
+    "href": "index.html#navigation",
+    "title": "Statistics Course for Students",
+    "section": "",
+    "text": "Use the top menu or click any topic above to begin. After each quiz, you’ll see feedback and your score."
   }
 ]
